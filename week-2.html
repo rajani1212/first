@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>registration form</title>
+
+</head>
+<style>
+@keyframes textAnimation {
+  0% { color: green; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+
+.text-gif {
+  animation: textAnimation 2s infinite;
+}
+</style>
+<body bgcolor="white">
+<form>
+
+<table align="center" cellpadding='4' cellspacing='14' style="font-family:century;color:green">
+<tr>
+<td colspan="4" align="center">
+<h1 class="text-gif" style="text-shadow: 2px 2px 4px gray ;font-family:century;color:blue">REGISTRATION FORM</h1> 
+</tr>
+<tr>
+<td>
+<p><b>FIRST NAME</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>  
+<input type="text" name="name"  placeholder="enter your first name" size=30 required>
+</td> 
+<td>
+<p><b>LAST NAME</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="text" name="name" placeholder="enter your last name" size=30 required>
+</td> 
+</tr>
+<tr>
+<td>
+<p><b>FATHER NAME</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="text" name="name"  placeholder="enter your father name" size=30 required>
+</td> 
+<td>
+<p><b>FATHER OCCUPATION</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="text" name="name"  placeholder="enter your father occupation" size=30 required>
+</td> 
+</tr>
+<tr>
+<td>
+<p><b>HT.NO</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="text" name="HT.NO"  placeholder="enter your hallticket no." size=30 required>
+</td> 
+<td>
+<p><b>CONTACT NO.</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="contact" name="CONTACT NO."  placeholder="enter your contact no."  required>
+</td>
+</tr> 
+<tr>
+<td>
+<p><b>DOB</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="date" name="DOB"  min="1999-01-01" max="2023-12-30">
+</td> 
+<td>
+<p><b>DATE OF JOINING</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="date" name="DOJ"  min="2021-12-12" max="2022-01-12">
+</td> 
+</tr>
+<tr>
+<td>
+<p><b>BRANCH</b><sup style="color: red;">&nbsp *</sup><p>
+</td>
+<td>
+<select>
+<option>-------------
+<option>CSE
+<option>IT
+<option>ECE
+<option>EEE
+<option>MECH
+</select>
+</td>
+
+<td>
+<p><b>BLOOD GROUP</b><sup style="color: red;">&nbsp *</sup><p>
+</td>
+<td>
+<select>
+<option>----------------
+<option>O +ve
+<option>O -ve
+<option>AB +ve
+<option>AB -ve
+<option>A +ve
+<option>A -ve
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>EMAIL</b><sup style="color: red;">&nbsp *</sup></p>
+</td>
+<td>
+<input type="email" name="email"  placeholder="enter valid mail" size=30 required>
+</td>
+<tr>
+<td>
+<b>LANGUAGES </b><sup style="color: red;">*</sup>
+</td>
+<td style="font-family:century;color:blue">
+<label >telugu</label>
+<input  type="checkbox" name="Telugu" id="Telugu" >
+<label>english</label>
+<input type="checkbox" name="English"  >
+<label>hindi</label>
+<input type="checkbox" name="Hindi"  >
+</td>
+<td>
+<b>GENDER</b> <sup style="color: red;">&nbsp *</sup>
+</td>
+<td style="font-family:century;color:blue">
+<label>MALE</label> 
+<input type="radio" name="gender" value="male" >            
+<label>FEMALE</label>
+<input type="radio" name="gender" value="female">
+</td>
+</tr>
+<tr>
+<td colspan="4" align="center">
+<button style="color:white;background-color:green">submit</button>
+<button style="color:black;background-color:yellow">reset</button>
+</td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>
