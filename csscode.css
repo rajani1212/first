@@ -90,6 +90,13 @@ nav{
     width: 145px;
     left: 615px;
 }
+nav a:nth-child(7){
+  width: 140px;
+ }
+ nav a:nth-child(7):hover~.animation{
+  width: 145px;
+  left: 760px;
+}
    .first{
     margin-top: 180px;
     margin-left: 100px;
@@ -541,6 +548,13 @@ button:hover{
       margin-left: 100px;
       margin-bottom: 35px;
       font-family: century;
-      font-size: 5mm;
+      font-size: 4mm;
     }
-    
+  .testt
+  {
+    padding: 25px;
+    font-family: century;
+    font-size: 5mm;
+    text-align:justify;
+  }
+  
